@@ -315,7 +315,7 @@ function calculateSubjectPosition($users, $currentUser, $subjectScoreKey) {
         </tr>
         <p><b>Principal's name: </b>{{$insert->PrincipalName}}. <b>Phone No:</b> {{$insert->PhoneN}}.</p>
       
-    </table>
+    </table><br><br>
     <table>
         <tr>
           <th class="grace">CLASS TEACHER'S COMMENT</th>

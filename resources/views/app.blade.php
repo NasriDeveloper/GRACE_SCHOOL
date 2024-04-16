@@ -21,7 +21,7 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700%7CJosefin+Sans:600,700" rel="stylesheet">
     <!-- FONTAWESOME ICONS -->
   
-        <link rel="stylesheet" href="homes/css/main.css">
+     
       
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -57,8 +57,7 @@
         <!-- Scripts -->
         @routes
         
-        @vite('home/js/materialize.min.js')
-        @vite('home/js/bootstrap.min.js')
+      
         @vite(['resources/js/app.js', "resources/js/Pages/{$page['component']}.vue"])
     
 
@@ -69,8 +68,7 @@
 
 
       
-        <script src="home/js/custom.js"></script>
-        <script src="home/js/main.min.js"></script>
+      
 
 
         <script src="/hod/plugins/jquery/jquery.min.js"></script>

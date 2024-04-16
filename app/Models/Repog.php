@@ -11,6 +11,7 @@ class Repog extends Model
 
     protected $fillable = [
         'Name',
+        'email',
         'Sex',
         'Class',
         'Stream',

@@ -12,8 +12,8 @@ return new class extends Migration
     public function up(): void
     {
         
-        Schema::table('repogies', function (Blueprint $table) {
-            $table->text('classteachercomment')->nullable();
+        Schema::table('repogs', function (Blueprint $table) {
+            $table->date('dob')->nullable();
         });
     }
 
@@ -22,8 +22,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('repogies', function (Blueprint $table) {         
-            $table->dropColumn('classteachercomment');
+        Schema::table('repogs', function (Blueprint $table) {         
+            $table->dropColumn('dob');
         });
     }
 };

@@ -65,6 +65,11 @@ const logout = () => {
             </div>
 
             <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input v-model="formData.email" type="text" id="email" name="email" class="form-control" required>
+            </div>
+
+            <div class="form-group">
                 <label for="Sex">Sex:</label>
                 <input v-model="formData.Sex" type="text" id="Sex" name="Sex" class="form-control" />
             </div>
@@ -264,6 +269,7 @@ export default {
     return {
       formData: {
         Name: '',
+        email: '',
         Sex: '',
         Class: '',
         Stream: '',

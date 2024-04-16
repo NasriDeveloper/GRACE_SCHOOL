@@ -12,6 +12,7 @@ class Repogy extends Model
     protected $fillable = [
         'Name',
         'Sex',
+        'email',
         'Class',
         'Stream',
         'EnglishScore',

@@ -29,13 +29,14 @@ defineProps({
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="bg-color-primary text-color-white tracking-wider">
-   
+    <img src="homes/img/logo/logo.png" alt="Report Photo" width="150px" height="150px">
       <nav class="bg-red-700 text-white p-4 fixed top-0 w-full z-10">
   <div class="max-w-screen-xl mx-auto flex justify-between items-center">
     <a href="#" class="text-2xl font-semibold">
       <img src="homes/img/logo/logo.png" class="h-8" alt="Flowbite Logo" />
       Graceschools
     </a>
+    
     <div class="flex items-center space-x-4">
       <div v-if="canLogin">
         <template v-if="$page.props.auth.user">
@@ -61,9 +62,9 @@ defineProps({
             <div class="container py-20">
                 <div class="flex flex-col items-center z-20 md:flex-row">
                     <div class="text-center mb-12 md:text-left md:w-1/2 md:pr-10">
-                      <h1 class="title mb-4" style="font-size: 4.5rem;">WELCOME TO</h1><br>
-                      <h1 class="title mb-4" style="font-size: 4.5rem;">GRACESCHOOLS</h1><br>
-                      <h1 class="title mb-4" style="font-size: 4.5rem;">KIGAMBONI.</h1><br><br><br>
+                      <h1 class="title mb-4" style="font-size: 3.5rem;">WELCOME TO</h1><br>
+                      <h1 class="title mb-4" style="font-size: 3.5rem;">GRACESCHOOLS</h1><br>
+                      <h1 class="title mb-4" style="font-size: 3.5rem;">KIGAMBONI.</h1><br><br><br>
                         <p class="leading-relaxed mb-10 text-white">
                          "Welcome to GraceSchools, where students from standards 1 through 7 
                          thrive under the guidance of experienced teachers dedicated 

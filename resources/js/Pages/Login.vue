@@ -54,22 +54,50 @@ const logout = () => {
          </form>
     </div>
   </div>
-</nav><br>
+</nav><br><br><br><br><br><br><br>
+<div class="bg-green-700 text-white p-4">
+  <p class="text-center text-white">Welcome to the Grace Schools system! You can now view the report of your child.</p>
+  <div class="text-center mt-4">
+    <button class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
+       <Link :href="'/repotis'" class="text-white">
+        VIEW REPORT(FOR STANDARD ONE AND TWO).
+        </Link>
+    </button>
 
-            
+  </div>
+</div>          
 
 
-<div class="bg-red-700 text-white p-4">
+<div class="bg-green-700 text-white p-4">
   <p class="text-center text-white">Welcome to the Grace Schools system! You can now view the report of your child.</p>
   <div class="text-center mt-4">
     <button class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
        <Link :href="'/repot'" class="text-white">
-          CLICK HERE TO VIEW REPORT
+        VIEW REPORT(FOR STANDARD THREE, FOUR AND SEVEN).
         </Link>
     </button>
 
   </div>
 </div>
+
+
+
+<div class="bg-green-700 text-white p-4">
+  <p class="text-center text-white">Welcome to the Grace Schools system! You can now view the report of your child.</p>
+  <div class="text-center mt-4">
+    <button class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
+       <Link :href="'/repotym'" class="text-white">
+        VIEW REPORT(FOR FIVE AND SIX).
+        </Link>
+    </button>
+
+  </div>
+</div>
+
+
+
+
+
 
 <div class="flex justify-between items-center mt-6 bg-red-700 text-white">
   <div class="w-full md:w-1/1 md:mx-6 p-6 bg-white border border-gray-900 rounded-md shadow overflow-hidden dark:bg-gray-800 dark:border-gray-700">
